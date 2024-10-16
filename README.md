@@ -18,3 +18,5 @@ es6 Do-while
 Il programma precedente viene trasformato in un programma che sfrutta il ciclo Do-while
 
 
+es7. selezione
+Conta approssimativamente i giorni di vita trascorsi alla data del proprio compleanno
