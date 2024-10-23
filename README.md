@@ -20,3 +20,6 @@ Il programma precedente viene trasformato in un programma che sfrutta il ciclo D
 
 es7. selezione
 Conta approssimativamente i giorni di vita trascorsi alla data del proprio compleanno
+
+es.8 selezione annidata - libreria string- uso di getline
+Realizza un programma farlocco che serve per imparare a utilizzare selezione 
