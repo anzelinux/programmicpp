@@ -25,7 +25,7 @@ int main() {
     cin.ignore(); // Pulire il buffer di input
     cout << "Inserisci il tuo indirizzo: ";
     getline(cin, indirizzo);
-    cout << "Inserisci la tua città: ";
+    cout << "Inserisci la tua cittÃ : ";
     getline(cin, citta);
     cout << "Inserisci il tuo numero di telefono: ";
     getline(cin, numeroTelefono);
@@ -37,8 +37,8 @@ int main() {
     cout << "3. Viaggio al Cuerro della Fuerca - 600 Euro\n";
     cin >> prodotto;
 
-    // Quantità
-    cout << "Inserisci la quantità desiderata: ";
+    // QuantitÃ 
+    cout << "Inserisci la quantitÃ  desiderata: ";
     cin >> quantita;
 
     // Calcolo del totale senza IVA
@@ -79,10 +79,10 @@ int main() {
     cout << "Cognome: " << cognome << endl;
     cout << "Data di nascita: " << giorno << "/" << mese << "/" << anno << endl;
     cout << "Indirizzo: " << indirizzo << endl;
-    cout << "Città: " << citta << endl;
+    cout << "CittÃ : " << citta << endl;
     cout << "Numero di telefono: " << numeroTelefono << endl;
     cout << "Prodotto scelto: " << (prodotto == 1 ? "Pistapoddighes" : prodotto == 2 ? "Squadra tunda" : "Viaggio al Cuerro della Fuerca") << endl;
-    cout << "Quantità: " << quantita << endl;
+    cout << "QuantitÃ : " << quantita << endl;
     cout << "Imponibile: " << imponibile << " Euro" << endl;
     cout << "IVA (22%): " << iva << " Euro" << endl;
     cout << "Totale: " << totale << " Euro" << endl;
