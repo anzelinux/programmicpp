@@ -12,3 +12,6 @@ Il programma precedente viene trasformato in un programma che sfrutta il ciclo D
 programma3 
 Dato il lato di un poligono viene calcolato automaticamente con il ciclo for il perimetro di cinque poligoni regolari aggiungendo ad ogni ciclo un lato 
 (triangolo, quadrato, pentagono, esagono ed ettagono)
+
+VETTORI
+es1 - Realizza un programma che carica un vettore e stampa i suoi elementi al contrario.
