@@ -15,3 +15,5 @@ Dato il lato di un poligono viene calcolato automaticamente con il ciclo for il 
 
 VETTORI
 es1 - Realizza un programma che carica un vettore e stampa i suoi elementi al contrario.
+
+es2 - Esercizio complesso con vettore caricato attraverso funzioni e procedure
