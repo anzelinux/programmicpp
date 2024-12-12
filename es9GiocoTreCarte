@@ -1,0 +1,39 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+using namespace std;
+
+int main() {
+    char ripeti;
+    int posizioneAsso;
+    int scelta;
+
+    srand(time(0)); // Inizializza il generatore di numeri casuali
+
+    do {
+        // Mescola le carte
+        posizioneAsso = rand() % 3 + 1;
+
+        cout << "Benvenuto al gioco delle tre carte!\n";
+        cout << "Ci sono tre carte: 1, 2, e 3. Indovina dove si trova l'asso.\n";
+        cout << "[1] [2] [3]" << endl;
+
+        cout << "In quale posizione (1-3) pensi si trovi l'asso? ";
+        cin >> scelta;
+
+        // Verifica la scelta
+        if (scelta == posizioneAsso) {
+            cout << "Complimenti! Hai trovato l'asso.\n";
+        } else {
+            cout << "Mi dispiace, l'asso era in posizione " << posizioneAsso << ".\n";
+        }
+
+        cout << "Vuoi giocare di nuovo? (s/n): ";
+        cin >> ripeti;
+    } while (ripeti == 's' || ripeti == 'S');
+
+    return 0;
+}
+
+
