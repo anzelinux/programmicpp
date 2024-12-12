@@ -23,3 +23,5 @@ Conta approssimativamente i giorni di vita trascorsi alla data del proprio compl
 
 es.8 selezione annidata - libreria string- uso di getline
 Realizza un programma farlocco che serve per imparare a utilizzare selezione 
+
+es.9 Funzione Casuale + Do-While - gioco delle 3 carte - 
