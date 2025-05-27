@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+string parola;
+
+int main(){
+
+while (true){
+	cout<<"> ";
+	cin>>parola;
+	if (parola=="nighele"){
+	  break;}
+	}
+cout<<"Uscito ne sei";
+
+return 0;
+}
