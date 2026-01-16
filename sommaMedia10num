@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+//Programma che sommi 10 numeri e comunichi la loro somma
+//uso il ciclo while (pre-condizionale)
+
+
+int main(){
+int num, somma; // num è il numero inserito - somma è il mio accumulatore
+int c=0; //contatore che conta 10 numeri	
+somma=0;
+int n; //chiede quanti numeri vogliamo sommare
+float media;
+
+//ripeti per 10 volte la richiesta di un numero e accumula i suoi valori
+cout<<"Quanti numeri vuoi sommare? inseriscili\n";
+cin>>n;
+
+
+while(c<n) {
+	
+	cout<<"Inserisci il "<<c+1<< "numero";
+	cin>>num;
+	somma=somma+num;
+	c=c+1;
+}
+
+cout<<"la somma dei numeri e\'' "<<somma;
+	media= float(somma )/ c;
+	cout << "la media dei "<<n<<" numeri e\'"<<media;
+
+}
